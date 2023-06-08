@@ -15,8 +15,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 ![127 0 0 1_3000_index html(iPad Air)](https://github.com/Bibiwei-Pere/qr-code/assets/106984663/ee98ce5a-96ec-4ab7-9edf-00343c7fbc18)
-<img src="https://github.com/Bibiwei-Pere/qr-code/assets/106984663/8411465a-acfb-49d7-8d56-1a6ada8f1419" width="200" height="300"/>
+#### Desktop 1440px
 
+<img src="https://github.com/Bibiwei-Pere/qr-code/assets/106984663/8411465a-acfb-49d7-8d56-1a6ada8f1419" width="200" height="500"/>
+#### Mobile 375px
 ### Links
 
 - Solution URL: [qr-code](https://github.com/Bibiwei-Pere/qr-code)
