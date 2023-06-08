@@ -1,56 +1,40 @@
-* {
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0;
-}
-
 body {
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    height: 100vh;
 }
 
 h1 {
-    font-size: 18px;
-    padding-bottom: 15px;
+    font-size: 20px;
     color: hsl(218, 44%, 22%);
+    margin-bottom: 3px;
 }
 
 p {
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
 }
 
-@media screen and (max-width: 1440px) {
-    main {
-        width: 25%;
-        margin: 130px auto;
-        background-color: hsl(0, 0%, 100%);
-        border-radius: 20px;
-        height: 490px;
-    }
-    
-    .qr-code {
-        display: flex;
-        flex-direction: column;
-    }
-    .qr-code img {
-        border-radius: 15px;
-        width: 90%;
-        height: 300px;
-        margin: 15px auto;
-    }
-    .qr-code div {
-        width: 80%;
-        margin: 10px auto;
-        text-align: center;
-    }    
-}
-/* MOBILE SCREEN */
-@media screen and (max-width: 375px) {
-main {
-    width: 85%;
-    margin: 80px auto;
-}  
+.qr-code {
+    width: 95%;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 260px;
+    padding: 14px;
+    border-radius: 18px;
+    text-align: center;
 }
 
+.qr-code img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.qr-code div {
+    width: 93%;
+    margin: 10px auto;
+    text-align: center;
+}    
